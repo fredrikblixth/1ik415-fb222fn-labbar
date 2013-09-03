@@ -1,4 +1,4 @@
 1ik415-fb222fn-labbar
 =====================
 
-1ik415
+Laborationer för kursen 1ik415 - Webbteknisk introduktion.

@@ -1,2 +1,3 @@
 {"ts":1378202030885,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"1ik415-fb222fn-labbar\n=====================\n\nLaborationer för kursen 1ik415 - Webbteknisk introduktion.\n"]],"start1":0,"start2":0,"length1":0,"length2":104}]],"length":104}
 {"contributors":[],"silentsave":false,"ts":1378202752453,"patch":[[{"diffs":[[0,"uktion.\n"],[1,"\n1. Ändrar i Readme och checkar in."]],"start1":96,"start2":96,"length1":8,"length2":43}]],"length":139,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378205500370,"patch":[[{"diffs":[[0,"eckar in"],[-1,"."],[1,"!"]],"start1":130,"start2":130,"length1":9,"length2":9}]],"length":139,"saved":false}

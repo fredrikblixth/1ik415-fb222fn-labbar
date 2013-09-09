@@ -24,3 +24,4 @@
 {"contributors":[],"silentsave":false,"ts":1378741568538,"patch":[[{"diffs":[[0,"/title>\n"],[1,"        <meta charset=\"UTF-8\">\n"],[0,"    </he"]],"start1":79,"start2":79,"length1":16,"length2":47}]],"length":1533,"saved":false}
 {"ts":1378742277174,"patch":[[{"diffs":[[0,"Hockey</li>\n"],[1,"                    <!-->Växjö Lakers HC!<-->\n"],[0,"            "]],"start1":1198,"start2":1198,"length1":24,"length2":70}]],"length":1579,"saved":false}
 {"ts":1378742319995,"patch":[[{"diffs":[[0,"    <!--"],[-1,">"],[1," "],[0,"Växjö La"]],"start1":1226,"start2":1226,"length1":17,"length2":17},{"diffs":[[0,"kers HC!"],[-1,"<"],[1," "],[0,"-->\n    "]],"start1":1243,"start2":1243,"length1":17,"length2":17}]],"length":1579,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1378756081848,"patch":[[{"diffs":[[0,"et=\""],[-1,"UTF"],[1,"utf"],[0,"-8\">"]],"start1":106,"start2":106,"length1":11,"length2":11}]],"length":1579,"saved":false}

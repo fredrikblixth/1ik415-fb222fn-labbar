@@ -12,5 +12,30 @@
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="../index.html">Start</a></li>
         </ul>
+        <p>Observera att detta är ett påhittat formulär, jag kommer inte att kontakta er, sorry ladies.</p>
+        <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+            <fieldset>
+                <legend>Fråga</legend>
+                <label>Ärendetyp: 
+                    <select name="Ärendetyp" size="1">
+                        <option value="1">Fråga</option>
+                        <option value="2">Beröm</option>
+                        <option value="3">Dra en vits</option>
+                    </select>
+                </label>
+                <label>Rubrik: 
+                    <input name="rubrik" placeholder="Rubrik">
+                </label>
+                <label>Text: 
+                    <textarea name="text" cols="50" rows="10" placeholder="Skriv din fråga här"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Information om dig</legend>
+                <input name="mail" type="checkbox" checked="checked">Kontakta mig via mail
+                <input name="telefon" type="checkbox">Kontakta mig via telefon
+            </fieldset>
+            <button type="submit">Skicka frågan</button>
+        </form>
     </body>
 </html>

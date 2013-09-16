@@ -37,3 +37,4 @@
 {"ts":1379353145608,"patch":[[{"diffs":[[0,"bild.jpg"],[1,"\""],[0," width=\""]],"start1":487,"start2":487,"length1":16,"length2":17}]],"length":2443,"saved":false}
 {"ts":1379353221644,"patch":[[{"diffs":[[0,"    <img"],[1," id=\"presentationImage\""],[0," src=\".."]],"start1":452,"start2":452,"length1":16,"length2":39}]],"length":2466,"saved":false}
 {"ts":1379353636059,"patch":[[{"diffs":[[0,"dth=\"328"],[1,"px"],[0,"\" height"]],"start1":522,"start2":522,"length1":16,"length2":18},{"diffs":[[0,"ght=\"253"],[1,"px"],[0,"\">\n     "]],"start1":537,"start2":537,"length1":16,"length2":18}]],"length":2470,"saved":false}
+{"ts":1379355150767,"patch":[[{"diffs":[[0,"dth=\"328"],[-1,"px"],[0,"\" height"]],"start1":522,"start2":522,"length1":18,"length2":16},{"diffs":[[0,"\"253"],[-1,"px"],[1,"\" alt=\"En man i sina bästa år med 4 öl i handen"],[0,"\">\n "]],"start1":539,"start2":539,"length1":10,"length2":55}]],"length":2513,"saved":false}

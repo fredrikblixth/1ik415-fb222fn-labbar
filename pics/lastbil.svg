@@ -1,0 +1,12 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="160" width="226" y="142" x="147" stroke-width="5" stroke="#000000" fill="#0000ff"/>
+  <rect id="svg_14" height="129" width="95" y="173" x="373" stroke-width="5" stroke="#000000" fill="#0000ff"/>
+  <ellipse ry="25" rx="25" id="svg_23" cy="311" cx="215" stroke-width="5" stroke="#000000" fill="#bfbfbf"/>
+  <ellipse stroke="#000000" ry="24.5" rx="25" id="svg_29" cy="309.5" cx="373" stroke-width="5" fill="#bfbfbf"/>
+  <rect id="svg_32" height="53" width="74" y="186" x="384" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path stroke="#000000" id="svg_5" d="m404.530792,220.706924q10.839844,7.445068 21.654053,0m-19.30542,-14.703979c0,-1.149902 0.932617,-2.08313 2.08374,-2.08313c1.151123,0 2.08252,0.933228 2.08252,2.08313c0,1.151123 -0.931396,2.08374 -2.08252,2.08374c-1.151123,0 -2.08374,-0.932617 -2.08374,-2.08374m12.814941,0c0,-1.149902 0.932617,-2.08313 2.08374,-2.08313c1.151123,0 2.08252,0.933228 2.08252,2.08313c0,1.151123 -0.931396,2.08374 -2.08252,2.08374c-1.151123,0 -2.08374,-0.932617 -2.08374,-2.08374m-24.32373,5.982056l0,0c0,-11.045532 8.953857,-20 20,-20c11.046143,0 20,8.954468 20,20c0,11.045532 -8.953857,20 -20,20c-11.046143,0 -20,-8.954468 -20,-20zm0,0l0,0c0,-11.045532 8.953857,-20 20,-20c11.046143,0 20,8.954468 20,20c0,11.045532 -8.953857,20 -20,20c-11.046143,0 -20,-8.954468 -20,-20z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff"/>
+ </g>
+</svg>

@@ -16,19 +16,16 @@
         <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
             <fieldset>
                 <legend>Fråga</legend>
-                <label>Ärendetyp: 
-                    <select name="Ärendetyp" size="1">
+                <label for="query">Ärendetyp:</label>
+                    <select id="query" name="Ärendetyp" size="1">
                         <option value="1">Fråga</option>
                         <option value="2">Beröm</option>
                         <option value="3">Dra en vits</option>
                     </select>
-                </label>
-                <label>Rubrik: 
-                    <input name="rubrik" placeholder="Rubrik">
-                </label>
-                <label>Text: 
-                    <textarea name="text" cols="50" rows="10" placeholder="Skriv din fråga här"></textarea>
-                </label>
+                <label for="subject">Rubrik:</label>
+                    <input id="subject" name="rubrik" placeholder="Rubrik">
+                <label for="textField">Text:</label>
+                    <textarea id="textField" name="text" cols="50" rows="10" placeholder="Skriv din fråga här"></textarea>
             </fieldset>
             <fieldset>
                 <legend>Information om dig</legend>

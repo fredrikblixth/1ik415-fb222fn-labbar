@@ -1,0 +1,33 @@
+body{
+}
+
+#container {
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    width: 100px;
+    float:left;
+}
+
+#content{
+    overflow:hidden;
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    float:right;
+}

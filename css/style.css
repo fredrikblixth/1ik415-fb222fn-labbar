@@ -1,29 +1,40 @@
 body{
+    background-color:#438AB2;
 }
 
 #container {
     width:1000px;
     margin-left: auto;
     margin-right: auto;
+    background-color:#CBE3FF;
 }
 
 #header {
     height: 100px;
     width: 100%;
+    background-color:#93D8FF;
 }
 
 nav {
     width: 100px;
+    display:block;
     float:left;
+    background-color:#7ACFFF;
+    border-radius: 10px;
+    border-color: #4454B2;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #content{
     overflow:hidden;
+    background-color:#D9E7FF;
 }
 
 #footer{
     height: 100px;
     width: 100%;
+    background-color:#93D8FF;
 }
 
 #logo{
@@ -31,3 +42,11 @@ nav {
     height: 100px;
     float:right;
 }
+
+/*
+background main: #438AB2
+backgound content: #D9E7FF
+background header&footer: #93D8FF
+background menu: #7ACFFF
+border : #4454B2
+*/

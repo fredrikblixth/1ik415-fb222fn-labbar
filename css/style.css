@@ -19,11 +19,40 @@ nav {
     width: 100px;
     display:block;
     float:left;
-    background-color:#7ACFFF;
-    border-radius: 10px;
-    border-color: #4454B2;
+    background-color:#93D8FF;
+    border-color: #5668FF;
     border-width: 2px;
     border-style: solid;
+}
+
+nav ul {
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+ 
+nav ul li {
+    display:block;
+    text-align: left;
+}
+ 
+nav ul li :hover { 
+    background: #A3C1FF;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display:block;
+    padding-top:7px;
+    padding-left:10px;
+    text-align:left;
+}
+
+.active{
+    background-color:#D9E7FF;
 }
 
 #content{

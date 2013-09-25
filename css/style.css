@@ -231,6 +231,69 @@ video {
     padding: 10px;
 }
 
+
+/* GRID */
+
+.grid {
+    background: #fff;
+    border: 4px;
+    border-style: solid;
+    border-color: #438AB2;
+    border-radius: 10px;
+    margin:5px;
+    width:600px;
+    position:relative;
+    left:120px;
+}
+
+.grid table {
+    text-align: left;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.grid table th
+{
+    padding: 5px 5px;
+}
+
+.grid table caption {
+    font-weight:bold;
+    padding:10px;
+}
+
+.grid table thead {
+    background-color: #438AB2;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.grid table tbody td {
+    color: black;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: black;
+    font-size: 12px;
+    font-weight: normal;
+    padding:5px;
+}
+
+.grid table tfoot td {
+    padding: 10px;
+    font-size: 14px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.grid table tfoot {
+    border-top:10px;
+    border-style:solid;
+    border-color:#438AB2;
+}
+
+
+
 /*
 background main: #438AB2
 backgound content: #D9E7FF

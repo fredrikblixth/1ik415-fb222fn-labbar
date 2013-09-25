@@ -2,7 +2,7 @@
 Elements
 */
 body {
-    background-color:#438AB2;
+    background-color:#26639D;
     font-family: Arial;
     font-size: 14px;
     line-height: 120%;
@@ -70,7 +70,7 @@ nav {
     width: 100px;
     display:block;
     float:left;
-    background-color:#93D8FF;
+    background-color:#99C9F9;
     border-color: #438AB2;
     border-width: 3px;
     border-style: solid;
@@ -80,7 +80,8 @@ nav {
 
 nav ul {
     font-family: Arial;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight:bold;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -96,7 +97,7 @@ nav ul li {
 }
  
 nav ul li :hover { 
-    background: #A3C1FF;
+    background: #26639D;
     text-decoration:none;
 }
 
@@ -137,6 +138,10 @@ video {
     border-color: #438AB2;
 }
 
+.blogPost p {
+    min-height:100px;
+}
+
 .blogFooter {
     border-top:3px;
     border-style:solid;
@@ -145,6 +150,8 @@ video {
 
 .blogFooter p {
     font-weight:bold;
+    min-height:0px;
+    height:auto;
 }
 
 .active{
@@ -156,17 +163,36 @@ video {
     list-style-type:none;
 }
 
+
+.right {
+    float:right;
+    padding:10px;
+    margin:5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: White;
+}
+
+.left {
+    float:left;
+    padding:10px;
+    margin:5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: White;
+}
+
 /* ID */
 
 #container {
     width:1000px;
     margin: auto auto 10px auto;
-    background-color: #CBE3FF;
+    background-color: #B2D6F9;
     padding: 2px;
 }
 
 #header {
-    background-color:#93D8FF;
+    background-color:#99C9F9;
     margin:10px;
     height:100px;
     border-color: #438AB2;
@@ -180,13 +206,13 @@ video {
 
 #content{
     overflow:hidden;
-    background-color:#D9E7FF;
+    background-color:#CBE3FF;
     margin:10px;
     border-radius:10px;
 }
 
 #footer{
-    background-color:#93D8FF;
+    background-color:#99C9F9;
     margin:10px;
     height:100px;
     border-color: #438AB2;

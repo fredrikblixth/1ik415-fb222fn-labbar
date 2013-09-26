@@ -292,6 +292,66 @@ video {
     border-color:#438AB2;
 }
 
+/* Form */
+
+form {
+    width: 380px;
+    margin: 10px;
+}
+
+fieldset {
+    border: 2px;
+    border-style: solid;
+    border-color: #438AB2;
+    margin:15px;
+}
+
+legend {
+    font-weight:bold;
+    margin-left:10px;
+}
+
+.input-unit {
+    min-height: 30px;
+    height:auto;
+}
+
+.input-unit select, input, textarea {
+    width: 250px;
+    float: right;
+    border: #438AB2 solid 1px;
+}
+
+.input-unit select:focus, input:focus, textarea:focus {
+    outline: #438AB2 solid 2px;
+}
+
+.input-unit label {
+    float:left;
+    margin-top:3px;
+}
+
+.input-unit .checkbox {
+    width: auto;
+    margin-right:100px;
+}
+
+.formSubmit {
+    margin-left:15px;
+    border: 2px;
+    border-style: solid;
+    border-color: #438AB2;
+    background-color: #438AB2;
+    color: white;
+    font-weight:bold;
+    border-radius:2px;
+}
+
+.formSubmit:hover, .formSubmit:focus {
+    background-color: #99C9F9;
+    border-radius:2px;
+    outline:none;
+}
 
 
 /*

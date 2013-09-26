@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8"/>
         <title>Kontaktuppgifter</title>
-        <link rel="stylesheet" href="../css/reset.css" type="text/css">
         <link rel="stylesheet" href="../css/style.css" type="text/css">
     </head>
     <body>
@@ -13,10 +12,10 @@
             </div>
             <nav>
                 <ul>
+                    <li><a href="../index.html">Start</a></li>
                     <li><a href="kontakt.html" class="active">Kontakt</a></li>
                     <li><a href="laborationer.html">Labbar</a></li>
                     <li><a href="presentation.html">Presentation</a></li>
-                    <li><a href="../index.html">Start</a></li>
                 </ul>
             </nav>
             <div id="content">
@@ -24,23 +23,35 @@
                 <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
                     <fieldset>
                         <legend>Fråga</legend>
-                        <label for="query">Ärendetyp:</label>
+                        <div class="input-unit">
+                            <label for="query">Ärendetyp:</label>
                             <select id="query" name="Ärendetyp" size="1">
                                 <option value="1">Fråga</option>
                                 <option value="2">Beröm</option>
                                 <option value="3">Dra en vits</option>
                             </select>
-                        <label for="subject">Rubrik:</label>
+                        </div>
+                        <div class="input-unit">
+                            <label for="subject">Rubrik:</label>
                             <input id="subject" name="rubrik" placeholder="Rubrik">
-                        <label for="textField">Text:</label>
+                        </div>
+                        <div class="input-unit">
+                            <label for="textField">Text:</label>
                             <textarea id="textField" name="text" cols="50" rows="10" placeholder="Skriv din fråga här"></textarea>
+                        </div>
                     </fieldset>
                     <fieldset>
                         <legend>Information om dig</legend>
-                        <input name="mail" type="checkbox" checked="checked">Kontakta mig via mail
-                        <input name="telefon" type="checkbox">Kontakta mig via telefon
+                        <div class="input-unit">
+                            <label for"mail">Kontakta mig via mail:</label>
+                            <input class="checkbox" name="mail" type="checkbox" checked="checked">
+                        </div>
+                        <div class="input-unit">
+                            <label for"telefon">Kontakta mig via telefon:</label>
+                            <input class="checkbox" name="telefon" type="checkbox">
+                        </div>
                     </fieldset>
-                    <button type="submit">Skicka frågan</button>
+                    <button class="formSubmit" type="submit">Skicka frågan</button>
                 </form>
                 </div>
                 <div id="footer"></div>

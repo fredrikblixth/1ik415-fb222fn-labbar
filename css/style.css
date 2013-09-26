@@ -300,15 +300,13 @@ form {
 }
 
 fieldset {
-    border: 2px;
-    border-style: solid;
-    border-color: #438AB2;
-    margin:15px;
+    border:none;
 }
 
 legend {
     font-weight:bold;
-    margin-left:10px;
+    border-bottom: 4px solid #438AB2;
+    width:100%;
 }
 
 .input-unit {
@@ -320,6 +318,20 @@ legend {
     width: 250px;
     float: right;
     border: #438AB2 solid 1px;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+::-webkit-input-placeholder {
+   padding-left:3px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   padding-left:3px; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   padding-left:3px; 
 }
 
 .input-unit select:focus, input:focus, textarea:focus {
@@ -353,6 +365,14 @@ legend {
     outline:none;
 }
 
+@media print{
+    nav, #header, #footer {
+        display:none;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+}
 
 /*
 background main: #438AB2

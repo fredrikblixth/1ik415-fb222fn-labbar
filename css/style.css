@@ -3,7 +3,7 @@ Elements
 */
 body {
     background-color:#26639D;
-    font-family: Arial;
+    font-family:"Times New Roman";
     font-size: 14px;
     line-height: 120%;
 }
@@ -97,17 +97,46 @@ nav ul li {
 }
  
 nav ul li :hover { 
-    background: #26639D;
     text-decoration:none;
+    background:#26639D no-repeat;
+    background-image: url("pics/sprite.png");
 }
 
 nav ul li a {
     display:block;
     padding-top:7px;
-    padding-left:10px;
+    padding-bottom:7px;
+    padding-left:25px;
+    font-size:12px;
     text-align:left;
     color:black;
+    background:no-repeat;
+    background-image: url("pics/sprite.png");
 }
+
+#start {
+    background-position: 0 0;
+}
+
+#contact {
+    background-position: 0 -288px;
+}
+
+#labs {
+    background-position: 0 -92px;
+}
+
+#presentation {
+    background-position: 0 -192px;
+}
+
+/*
+#nav li a {background-image:url('../img/image_nav.gif')}
+#nav li a.item1 {background-position:0px 0px}
+#nav li a:hover.item1 {background-position:0px -72px}
+#nav li a.item2 {background-position:0px -143px;}
+#nav li a:hover.item2 {background-position:0px -215px;} */
+
 blockquote {
     font-style:italic;
     padding: 7px;

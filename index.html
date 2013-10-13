@@ -4,13 +4,13 @@
         <meta charset="utf-8"/>
         <title>Fredrik Blixth - Webbprogrammerare</title>
         <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/indexStyle.css" type="text/css">
     </head>
     <body>
         <div id="container">
-            <div id="header">
+            <header>
                 <h2>Fredrik Blixth - Webbprogrammerare</h2>
-            </div>
+            </header>
             <nav>
                 <ul>
                     <li><a id="start" href="index.html" class="active">Start</a></li>
@@ -21,63 +21,87 @@
             </nav>
             <div id="content">
                 <h2>Programbloggen!</h2>
-                <div class="blogPost">
-                    <h3 class="blogHead">Copycat</h3>
+                <article>
+                    <header>
+                        <h3>Copycat</h3>
+                    </header>
                     <p>Idag har jag gjort en copycat-labb! Se resultatet här: <a href="https://c9.io/fredrikblixth/uppgift-3-3/workspace/index.html">Labb 3</a></p>
-                    <div class="blogFooter">
+                    <footer>
                         <p class="quoteHeader">Quote of the day..</p>
                         <blockquote lang="en">I'm in no condition to drive...wait! I shouldn't listen to myself, I'm drunk! - Homer Simpson</blockquote>
                         <p>Fredrik 2013-09-30</p>
-                    </div>
-                </div>
-                <div class="blogPost">
-                    <h3 class=blogHead>Lorem ipsum dolor sit amet</h3>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                    </header>
                     <img class="right" src="pics/lipsum.gif" alt="Bild på en klocka">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nulla eget felis egestas lobortis. Donec eget iaculis dui. Pellentesque diam lorem, placerat vitae dapibus in, feugiat vitae lorem. Maecenas lacinia consectetur risus, nec interdum leo pharetra eget. Morbi non metus nisi. Donec ac lobortis sapien. Proin faucibus mi eget leo pretium, at commodo nisi feugiat. Vestibulum lorem nisl, porttitor in interdum at, semper nec sapien. Sed dictum orci eget ligula varius, a faucibus augue scelerisque. Donec ultricies ut nisi ut consectetur. Mauris facilisis commodo libero nec pretium. Sed sit amet iaculis ante. Suspendisse condimentum gravida urna, sed suscipit dui pharetra eget. Aenean euismod sed tellus eget pretium. Fusce consectetur metus eget lorem tempor volutpat.</p>
                     <p>Sed interdum magna turpis, ut laoreet libero porta a. Ut sem lectus, fringilla eu risus eget, mattis elementum ipsum. In quis ornare lacus. Fusce vitae nibh ac mi aliquet pharetra ut quis mauris. Morbi vitae eros nec dolor consequat tincidunt. Nunc venenatis blandit nibh id adipiscing. Nullam condimentum mauris quis suscipit faucibus. Maecenas scelerisque ipsum eu magna porttitor, ut iaculis justo tempus. Sed venenatis vehicula porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                     <img class="left" src="pics/lipsum2.gif" alt="Bild på en kaffemugg">
                     <p>Nulla ipsum ipsum, tristique non tempus a, malesuada ac justo. Nunc magna dui, posuere id sem nec, tempus luctus nisi. Nam rhoncus, nibh vel commodo faucibus, nibh nisl vulputate leo, eget gravida metus orci a ante. Pellentesque sed porttitor justo, sit amet commodo felis. Sed nec justo mi. In hac habitasse platea dictumst. Aliquam tempor viverra lorem sed accumsan. Morbi quis metus tellus. Vestibulum massa eros, consectetur vel consectetur dignissim, eleifend at enim. Aliquam tempus enim turpis, cursus congue ipsum feugiat quis. Duis vulputate nulla condimentum nisi posuere, vel lacinia massa sagittis. Nulla ullamcorper eleifend consectetur. Fusce consequat, magna vitae commodo imperdiet, ligula magna adipiscing massa, id tempor leo est pellentesque risus. Sed sed ante a elit posuere pretium. Morbi ut sem tincidunt, varius nisl vitae, sagittis sem.</p>
-                    <div class="blogFooter">
+                    <footer>
                         <p class="quoteHeader">Quote of the day..</p>
                         <blockquote lang="en">Beer: The cause of, and solution to, all of life's problems. - Homer Simpson</blockquote>
                         <p>Fredrik 2013-09-25</p>
-                    </div>
-                </div>
-                <div class="blogPost">
-                    <h3 class="blogHead">Filmdags!</h3>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Filmdags!</h3>
+                    </header>
                     <p>Nu ska vi kolla på lite film! Tack till <a href="http://www.bigbuckbunny.org/">Big Buck Bunny</a> för lånet av filmerna!</p>
                     <video width="640" height="480" controls>
                         <source src="videos/trailer_480p.mov" type="video/mp4" />
                         <source src="videos/trailer_400p.ogg" type="video/ogg" />
                     </video>
-                    <div class="blogFooter">
+                    <footer>
                         <p class="quoteTitle">Quote of the day..</p>
                         <blockquote lang="en">Kill my boss? Do I dare live out the American dream? - Homer Simpson</blockquote>
                         <p>- Fredrik 2013-09-16</p>
-                    </div>
-                </div>
-                <div class="blogPost">
-                    <h3 class="blogHead">Bilder..</h3>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Bilder..</h3>
+                    </header>
                     <p>Dags för andra inlägget på bloggen! Idag har jag lagt in lite bilder på sajten! Kolla in denna grymma svg-bilden! <a href="pics/lastbil.svg">lastbil</a></p>
-                    <div class="blogFooter">
+                    <footer>
                         <p class="quoteTitle">Quote of the day..</p>
                         <blockquote lang="en">When will I learn? The answer to life's problems aren't at the bottom of a bottle, they're on TV! - Homer Simpson</blockquote>
                         <p>- Fredrik 2013-09-16</p>
-                    </div>
-                </div>
-                <div class="blogPost">
-                    <h3 class="blogHead">Once upon a time...</h3>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Once upon a time...</h3>
+                    </header>
                     <p>Detta är det första inlägget på denna bloggen! Här kommer jag skriva och publicera allt som jag lär mig i denna kursen</p>
-                    <div class="blogFooter">
+                    <footer>
                         <p class="quoteTitle">Quote of the day..</p>
                         <blockquote lang="en">Oh, so they have internet on computers now! - Homer Simpson</blockquote>
                         <p>- Fredrik 2013-09-09</p>
+                    </footer>
+                </article>
+            </div>
+            <footer>
+                <div id="hcard-Fredrik-Hans-Johan-Blixth" class="vcard">
+                    <span class="fn n">
+                        <span class="given-name">Fredrik</span>
+                        <span class="additional-name">Hans Johan</span>
+                        <span class="family-name">Blixth</span>
+                    </span>
+                    <a class="email" href="mailto:fredrik.blixth@gmail.com">fredrik.blixth@gmail.com</a>
+                    <div class="adr">
+                        <div class="street-address">Liedbergsgatan 29b</div>
+                        <span class="locality">Växjö</span>
+                        <span class="postal-code">352 32</span>
+                        <span class="country-name">Sweden</span>
                     </div>
+                    <div class="tel">+46703467336</div>
                 </div>
-            </div>
-            <div id="footer">
-                
-            </div>
+            </footer>
         </div>
     </body>
 </html>

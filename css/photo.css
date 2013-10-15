@@ -9,11 +9,11 @@
 
 #images a {
     transition: all 1s;
-    width:220px;
-    height:210px;
+    width:200px;
     display:block;
-    margin:10px;
     float:left;
+    position:absolute;
+    margin:10px;
     text-decoration:none;
     color:blue;
     font-family: 'Shadows Into Light Two', cursive;
@@ -24,14 +24,7 @@
     -o-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
-}
-
-#images a img {
-    transition: all 1s;
-    width:200px;
-    display:inline-block;
-    z-index:500;
-    padding:10px 10px 50px 10px;
+    padding:10px 10px 30px 10px;
     background-color: white;
     -webkit-box-shadow: 7px 7px 10px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 7px 7px 10px rgba(50, 50, 50, 0.75);
@@ -39,8 +32,11 @@
     position:relative;
 }
 
+#images a img {
+    width:100%;
+}
+
 #images a:nth-child(3n) {
-    transition: all 1s;
     -webkit-transform: rotate(10deg);
     -moz-transform: rotate(10deg);
     -o-transform: rotate(10deg);
@@ -51,7 +47,6 @@
 }
 
 #images a:nth-child(5n) {
-    transition: all 1s;
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
@@ -61,55 +56,21 @@
     right:40px;
 }
 
-#images a img:hover, #images a img:focus {
-    transition: all 1s;
-    -webkit-box-shadow: 12px 12px 20px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 12px 12px 20px rgba(50, 50, 50, 0.75);
-    box-shadow: 12px 12px 20px rgba(50, 50, 50, 0.75);
-    padding:15px 15px 75px 15px;
-    width:300px;
-    text-decoration:none;
-    position:relative;
-}
-
-#images a:nth-child(3n):hover {
-    transition: all 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    font-size:37.5px;
-    z-index:2000;
-}
-
-#images a:nth-child(5n):hover {
-    transition: all 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    font-size:22.5px;
-    z-index:2000;
-}
-
-#images a:hover {
-    transition: all 1s;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-    font-size:30px;
+#images a:hover, #images a:focus {
+    -webkit-transform: rotate(0deg) scale(1.5);
+    -moz-transform: rotate(0deg) scale(1.5);
+    -o-transform: rotate(0deg) scale(1.5);
+    -ms-transform: rotate(0deg) scale(1.5);
+    transform: rotate(0deg) scale(1.5);
+    -webkit-box-shadow: 14px 14px 20px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 14px 14px 20px rgba(50, 50, 50, 0.5);
+    box-shadow: 14px 14px 20px rgba(50, 50, 50, 0.5);
     z-index:2000;
 }
 
 #images a[title]:after {
     content:attr(title);
     position:relative;
-    left: 5%;
-    top: -23%;
     z-index:505;
 }
 
